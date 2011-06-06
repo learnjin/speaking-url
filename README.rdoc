@@ -10,7 +10,7 @@ Gem is mainly SEO-motivated; it facilitates:
 * And (from a SEO-point maybe most importantly) Modification of URL 
   strategies with proper HTTP (301) redirects. 
 
-This Gem _does not_::
+This Gem <em>does not</em>:
 
 * generate URLs
 * manage all of your App's URLs
@@ -74,15 +74,13 @@ fetches by it's primary-ID, but by the request.path:
 
     @search = Person.find_by_url(request.path) 
 
-To add a new route 
-
 
 == Usage in views 
 
 Instead of using the default rails route helpers in your views, you want
 to use the speaking url helpers:
 
-    <%= link_to "SEO friendly link", @person.current_url %> 
+    <%= link_to "A nice person", @person.current_url %> 
 
 
 = Outlook and Todo
