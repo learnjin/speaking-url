@@ -10,7 +10,7 @@ Gem is mainly SEO-motivated; it facilitates:
 * And (from a SEO-point maybe most importantly) Modification of URL 
   strategies with proper HTTP (301) redirects. 
 
-This Gem _does not_ :
+This Gem _does not_::
 
 * generate URLs
 * manage all of your App's URLs
