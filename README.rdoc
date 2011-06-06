@@ -1,6 +1,6 @@
 = Speaking URL
 
-The Speaking URL Gem provides an extension for the +routes.rb+ file of
+The Speaking URL Gem provides an extension for the <tt>routes.rb</tt> file of
 your Rails-App to allow for arbitrary URL being used for resources. The
 Gem is mainly SEO-motivated; it facilitates:
 
@@ -43,20 +43,22 @@ want to assign a Speaking URL to.
 This adds an array field +urls+ to the Person resource, where the
 current url and the url history are stored.
 
-To add a new route to a some resource, use the +add_mapping+ method:
+To add a new route to a some resource, use the +add_mapping+ method
+instead of modifying the field directly.
 
     @person.add_mapping('/some/new/mapping')
+
 
 
 == Configuring routes
 
 To actually deploy the new routes, the Gem ships with the
-+speaking_url_resource+-method. So far it accepts no customizations; you
++speaking_url_resource+ method. So far it accepts no customizations; you
 simply provide the resources as symbols:
 
 
 the routes known to your Rails-App, you need to configure your
-+routes.rb+ file. 
+<tt>routes.rb</tt> file. 
 
   speaking_url_resource :person, :product
 
@@ -96,4 +98,5 @@ version is:
 = License
 
 GPLv3. Copyright 2011 Kai Rubarth.  
+
 
