@@ -1,0 +1,108 @@
+= begin
+
+= Speaking URL
+
+The Speaking URL Gem provides an extension for the %routes.rb% file of
+your Rails-App to allow for arbitrary URL being used for resources. The
+Gem is mainly SEO-motivated; it facilitates:
+
+* Usage of so called *static* or *nice-looking* URLs,
+* Implementation of a SEO friendly URL strategy,
+* And (from a SEO-point maybe most importantly) Modification of URL 
+  strategies with proper HTTP (301) redirects. 
+
+This Gem *does not*:
+
+* generate URLs
+* manage all of your App's URLs
+
+These points have to by managed by your app. 
+
+
+= Installation
+
+Add the gem to your Rails-App by including it in your Gemfile:
+
+    gem "speaking_url"
+
+
+= Usage
+
+A quick list of steps that have to be done in order to get started
+with using this Gem follows.
+
+== Usage in your models
+
+The Speaking Url must be setup within the models (resources) that you
+want to assign a Speaking URL to.
+
+    class Person
+      include Mongoid::Document
+      include include SpeakingUrl::MongoResource
+    end
+
+This adds an array field %urls% to the Person resource, where the
+current url and the url history are stored.
+
+To add a new route to a some resource, use the %add_mapping% method:
+
+    @person.add_mapping('/some/new/mapping')
+
+
+== Configuring routes
+
+To actually deploy the new routes, the Gem ships with the
+%speaking_url_resource%-method. So far it accepts no customizations; you
+simply provide the resources as symbols:
+
+
+the routes known to your Rails-App, you need to configure your
+%routes.rb% file. 
+
+  speaking_url_resource :person, :product
+
+Both, the person and product resource, are made accessible by their
+speaking url(s). You probably want to include this as one of your last
+statements (maybe before your root source), so that the other routes
+have higher priority.
+
+
+
+== Usage in Controllers  
+
+In the appropriate controllers actions a specific resource is no longer
+fetches by it's primary-ID, but by the request.path:
+
+    @search = Person.find_by_url(request.path) 
+
+To add a new route 
+
+
+== Usage in views 
+
+Instead of using the default rails route helpers in your views, you want
+to use the speaking url helpers:
+
+    <%= link_to "SEO friendly link", @person.current_url %> 
+
+
+= Outlook and Todo
+
+So far the Gem is pretty limited. What could be developed for following
+version is:
+
+* unit tests (asap)
+* support for other persistent storage mappers
+* configuration options for the routes method
+
+
+= License
+
+GPLv3. Copyright 2011 Kai Rubarth.  
+
+
+
+= end
+
+
+
