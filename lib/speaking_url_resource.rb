@@ -1,0 +1,3 @@
+module SpeakingUrlResource
+  # Your code goes here...
+end
