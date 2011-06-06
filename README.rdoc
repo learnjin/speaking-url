@@ -1,22 +1,28 @@
-= begin
-
 = Speaking URL
 
-The Speaking URL Gem provides an extension for the %routes.rb% file of
+The Speaking URL Gem provides an extension for the +routes.rb+ file of
 your Rails-App to allow for arbitrary URL being used for resources. The
 Gem is mainly SEO-motivated; it facilitates:
 
-* Usage of so called *static* or *nice-looking* URLs,
+* Usage of so called "static" or "nice-looking" URLs,
 * Implementation of a SEO friendly URL strategy,
+* Usage of different style URLs for resources of the same type
 * And (from a SEO-point maybe most importantly) Modification of URL 
   strategies with proper HTTP (301) redirects. 
 
-This Gem *does not*:
+This Gem _does not_:
+
+* generate URLs
+* manage all of your App's URLs
+* And (from a SEO-point maybe most importantly) Modification of URL 
+  strategies with proper HTTP (301) redirects. 
+
+This Gem _does not_:
 
 * generate URLs
 * manage all of your App's URLs
 
-These points have to by managed by your app. 
+These points have to by managed by yourself.
 
 
 = Installation
@@ -41,10 +47,10 @@ want to assign a Speaking URL to.
       include include SpeakingUrl::MongoResource
     end
 
-This adds an array field %urls% to the Person resource, where the
+This adds an array field +urls+ to the Person resource, where the
 current url and the url history are stored.
 
-To add a new route to a some resource, use the %add_mapping% method:
+To add a new route to a some resource, use the +add_mapping+ method:
 
     @person.add_mapping('/some/new/mapping')
 
@@ -52,12 +58,12 @@ To add a new route to a some resource, use the %add_mapping% method:
 == Configuring routes
 
 To actually deploy the new routes, the Gem ships with the
-%speaking_url_resource%-method. So far it accepts no customizations; you
++speaking_url_resource+-method. So far it accepts no customizations; you
 simply provide the resources as symbols:
 
 
 the routes known to your Rails-App, you need to configure your
-%routes.rb% file. 
++routes.rb+ file. 
 
   speaking_url_resource :person, :product
 
@@ -99,10 +105,4 @@ version is:
 = License
 
 GPLv3. Copyright 2011 Kai Rubarth.  
-
-
-
-= end
-
-
 
