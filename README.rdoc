@@ -57,24 +57,24 @@ To actually deploy the new routes, the Gem ships with the
 simply provide the resources as symbols:
 
 
-the routes known to your Rails-App, you need to configure your
-<tt>routes.rb</tt> file. 
-
   speaking_url_resource :person, :product
 
-Both, the person and product resource, are made accessible by their
-speaking url(s). You probably want to include this as one of your last
+Here both - the person and product resource - are made accessible by their
+speaking url(s). You probably want to include this line as one of your last
 statements (maybe before your root source), so that the other routes
-have higher priority.
+have higher priority and achieve slightly better performance.  
 
 
 
 == Usage in Controllers  
 
 In the appropriate controllers actions a specific resource is no longer
-fetches by it's primary-ID, but by the request.path:
+fetches by it's databse ID, but by the request.path:
 
     @search = Person.find_by_url(request.path) 
+
+You can be sure there that a resource is found because otherwise the the
+controller wouldn't have been called by the routing mapper.
 
 
 == Usage in views 
