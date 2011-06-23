@@ -21,8 +21,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency('rails')
   s.add_dependency('mongoid')
-  s.add_development_dependency('shoulda')
-  s.add_development_dependency('mocha')
 
 end
 

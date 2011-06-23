@@ -15,6 +15,7 @@ Rails.backtrace_cleaner.remove_silencers!
 #require "capybara/rails"
 #Capybara.default_driver   = :rack_test
 #Capybara.default_selector = :css
+
 #
 # Run any available migration
 #ActiveRecord::Migrator.migrate File.expand_path("../dummy/db/migrate/", __FILE__)

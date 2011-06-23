@@ -1,0 +1,348 @@
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 11:57:41 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:01:13 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:12:30 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:12:56 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:13:15 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:25:37 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:26:15 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:26:41 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:26:55 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:29:27 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:37:56 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:40:35 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:42:06 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:42:32 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 500 Internal Server Error in 19ms
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:43:23 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 500 Internal Server Error in 5ms
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:43:36 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 500 Internal Server Error in 3ms
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:43:54 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 57ms (Views: 57.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:44:09 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 2ms (Views: 1.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:44:57 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:45:05 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:45:05 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:45:05 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:45:25 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 3ms (Views: 2.6ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:45:25 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:45:25 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:46:11 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:46:11 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:46:11 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:46:22 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 2ms (Views: 1.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:46:22 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:46:22 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:47:55 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:47:55 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 2ms (Views: 1.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:47:55 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 0ms (Views: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:47:55 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:47:55 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:48:39 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:48:39 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 2ms (Views: 1.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:48:39 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:48:39 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:48:39 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:50:16 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:50:16 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:50:17 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:50:17 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:50:17 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:51:07 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:51:07 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:51:08 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 0ms (Views: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:51:08 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:51:08 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:52:31 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:52:31 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:52:31 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 0ms (Views: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:52:31 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:52:31 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:53:34 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:53:34 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 2ms (Views: 1.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:53:34 -0400 2011
+
+
+Started GET "/new/url" for 127.0.0.1 at Thu Jun 23 12:53:34 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"new/url"}
+Completed 200 OK in 0ms (Views: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:54:17 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:54:17 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 4ms (Views: 3.8ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:54:17 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:54:55 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:54:55 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 1ms (Views: 1.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:54:55 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:55:04 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:55:04 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:55:04 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:55:17 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:55:17 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 1ms (Views: 1.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:55:17 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:55:42 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:55:42 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 1ms (Views: 1.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:55:42 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:57:08 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:57:08 -0400 2011
+  Processing by ArticlesController#show as HTML
+  Parameters: {"path"=>"articles/1"}
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/foo/bar" for 127.0.0.1 at Thu Jun 23 12:57:08 -0400 2011
+
+
+Started GET "/articles/1" for 127.0.0.1 at Thu Jun 23 12:57:08 -0400 2011
