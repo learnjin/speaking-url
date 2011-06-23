@@ -37,7 +37,7 @@ want to assign a Speaking URL to.
 
     class Person
       include Mongoid::Document
-      include include SpeakingUrl::MongoResource
+      include SpeakingUrl::MongoResource
     end
 
 This adds an array field +urls+ to the Person resource, where the
@@ -90,7 +90,6 @@ to use the speaking url helpers:
 So far the Gem is pretty limited. What could be developed for following
 version is:
 
-* unit tests (asap)
 * support for other persistent storage mappers
 * configuration options for the routes method
 

@@ -1,11 +1,9 @@
 require 'rails'
 #require 'active_support/dependencies'
 
-require 'speaking_url/mongo_resource'
-require 'speaking_url/routing_extensions'
-
 module SpeakingUrl
-
+  require 'speaking_url/routing_extensions'
+  autoload :MongoResource, 'speaking_url/mongo_resource'
 end
 
 
