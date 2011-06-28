@@ -48,7 +48,14 @@ instead of modifying the field directly.
 
     @person.add_mapping('/some/new/mapping')
 
+=== Core Extensions
 
+The gem comes with some helpful inflection methods for the String class. 
+
+* +urlify+ : replaces all white space and special characters with dashes
+* +unumlaut+ : converts German Umlauts to their ASCII counterparts 
+
+Additionally, the methods +upcase+ and +downcase+ are made Umlaut aware. 
 
 == Configuring routes
 
