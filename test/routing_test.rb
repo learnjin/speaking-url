@@ -40,3 +40,23 @@ class NavigationTest < ActionController::IntegrationTest
 end
 
 
+class RoutesConfigurationTest < ActionController::TestCase
+
+  test "controller specification" do
+
+    @routes = ActionDispatch::Routing::RouteSet.new
+    @routes.draw do
+      speaking_url_resource :article, :controller => 'nested/articles'
+    end
+
+    Article.delete_all
+    a = Article.new
+    a.add_mapping("/foo/bar")
+
+    assert_recognizes({:controller => 'nested/articles', :action => 'show', :path => "foo/bar"}, {:path => '/foo/bar'})
+
+  end
+
+end
+
+

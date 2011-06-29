@@ -5,6 +5,8 @@ module ActionDispatch::Routing
 
     def speaking_url_resource(*resources)
 
+      options = resources.extract_options!
+
       resources.map!(&:to_sym)
 
       resources.each do |sym|
@@ -31,7 +33,9 @@ module ActionDispatch::Routing
           end
         end
 
-        match "*path", :to  => "#{klass.name.underscore.pluralize}#show", :constraints => current_address_constraint_class.new
+        controller = options[:controller] || klass.name.underscore.pluralize
+
+        match "*path", :to  => "#{controller}#show", :constraints => current_address_constraint_class.new
         match "*path" => redirect{|p, req| klass.find_by_url(req.path).current_url}, :constraints => old_address_constraint_class.new
 
       end
