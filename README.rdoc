@@ -102,9 +102,10 @@ to use the speaking url helpers:
 So far the Gem is pretty limited. What could be developed for following
 version is:
 
+* more configuration options 
 * support for other persistent storage mappers
-* configuration options for the routes method
-
+* go to a single table/collection implementation for performance and more 
+  flexibility (i.e. index and create actions/routes)
 
 = License
 
