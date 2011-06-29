@@ -75,8 +75,8 @@ be customized:
 *NOTE*: You probably want to include the lines as one of your last
 statements in your +route.rb+ file to:
 
-  * give standard routes higher priority
-  * and achieve better performance (due to DB calls in the routing process)
+* give standard routes higher priority
+* and achieve better performance (due to DB calls in the routing process)
 
 == Usage in Controllers  
 
