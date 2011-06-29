@@ -60,18 +60,23 @@ Additionally, the methods +upcase+ and +downcase+ are made Umlaut aware.
 == Configuring routes
 
 To actually deploy the new routes, the Gem ships with the
-+speaking_url_resource+ method. So far it accepts no customizations; you
-simply provide the resources as symbols:
-
++speaking_url_resource+ method.  You simply provide the resources as symbols:
 
   speaking_url_resource :person, :product
 
-Here both - the person and product resource - are made accessible by their
-speaking url(s). You probably want to include this line as one of your last
-statements (maybe before your root source), so that the other routes
-have higher priority and achieve slightly better performance.  
+As a a result both - the person and product resource - are made accessible by
+their speaking url(s). The controller is inferred from the model name, but can
+be customized:
+
+  speaking_url_resource :person, :controller => 'vip/persons'
+  speaking_url_resource :product, :controller => 'my_products'
 
 
+*NOTE*: You probably want to include the lines as one of your last
+statements in your +route.rb+ file to:
+
+  * give standard routes higher priority
+  * and achieve better performance (due to DB calls in the routing process)
 
 == Usage in Controllers  
 
