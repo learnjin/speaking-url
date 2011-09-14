@@ -1,3 +1,11 @@
+= NOTE
+
+This gem is deprecated in favor of the new Rewritten gem. It's better to
+make use of the new gem because being Rack based it decouples URLs from
+your App: no need alter routing, models, controllers and views as with
+the SpeakingURL gem here.
+
+
 = Speaking URL
 
 The Speaking URL Gem provides an extension for the <tt>routes.rb</tt> file of
