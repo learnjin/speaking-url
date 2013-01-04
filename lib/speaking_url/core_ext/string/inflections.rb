@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class String
 
   alias_method :original_downcase, :downcase
@@ -22,7 +23,7 @@ class String
   end
 
   # Replaces all white space and special characters of a String with dashes, to make
-  # it a valid url segment: 
+  # it a valid url segment:
   #
   #   "** Dr. Jekyll and Mr. Hyde ++" # => "Dr-Jekyll-and-Mr-Hyde"
   def urlify
