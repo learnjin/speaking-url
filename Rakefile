@@ -1,6 +1,6 @@
 require 'bundler'
 require 'rake/testtask'
-require 'rake/rdoctask'
+require 'rdoc/task'
 
 desc 'Default: run all tests'
 task :default => :test

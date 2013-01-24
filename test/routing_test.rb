@@ -45,7 +45,8 @@ class RoutesConfigurationTest < ActionController::TestCase
   test "controller specification" do
 
     with_routing do |set|
-      set.draw do |map|
+
+      set.draw do
         speaking_url_resource :article, :controller => 'nested/articles'
       end
 
@@ -53,7 +54,7 @@ class RoutesConfigurationTest < ActionController::TestCase
       a = Article.new
       a.add_mapping("/foo/bar")
 
-      assert_recognizes({:controller => 'nested/articles', :action => 'show', :path => "foo/bar"}, {:path => '/foo/bar'})
+      assert_recognizes({:controller => 'nested/articles', :action => 'show', :path => 'foo/bar'}, 'foo/bar')
 
     end
 
